@@ -55,7 +55,7 @@ tools = [{
 
 response = client.responses.create(
     model="gpt-4.1",
-    input="Calculate the volume of a cylinder with radius 5 and height 10.",
+    input="Calculate the volume of a cylinder with radius 3 and height 6.",
     tools=tools
 )
 
@@ -70,7 +70,8 @@ for item in response.output:
 ```
 
 ## OUTPUT:
-<img width="1261" height="661" alt="Screenshot 2026-10-27 223550" src="https://github.com/user-attachments/assets/22cd1e60-4933-4459-b95d-d49b0dc12274" />
+<img width="978" height="648" alt="Screenshot 2026-10-27 225818" src="https://github.com/user-attachments/assets/e0eec817-d985-4468-b931-3bba412cdb8b" />
+
 
 
 ## RESULT:
